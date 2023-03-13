@@ -3,7 +3,6 @@ import React from "react";
 
 function AboutUs() {
   return (
- 
     <div className="px-12 py-28 sm:px-48 sm:py-20" id="about">
       <div className="sm:flex sm:flex-row sm:gap-10">
         <div className="font-poppins text-gray-500 flex flex-col text-xs sm:w-1/2">
@@ -29,7 +28,7 @@ function AboutUs() {
           </button>
         </div>
         <div className="py-10 sm:w-1/2">
-          <img src={about_image} alt="" className="sm:h-72 sm:w-full"/>
+          <img src={about_image} alt="" className="sm:h-72 sm:w-full" />
         </div>
       </div>
     </div>
