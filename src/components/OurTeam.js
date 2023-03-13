@@ -16,26 +16,26 @@ function OurTeam() {
         </p>
       </div>
 
-      <div className="sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
-        <div className="pb-6 hover:shadow-2xl sm:pb-0">
-          <img src={teamOne} alt="" className="sm:h-96 sm:w-80" />
-          <div className="border-x-2 border-b-2 border-gray-300">
+      <div className="flex flex-col gap-8 sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
+        <div className="hover:shadow-2xl py-0 sm:pb-0">
+          <img src={teamOne} alt="" className="sm:h-96 sm:w-80 h-96 w-80" />
+          <div className="">
             <p className="text-lg font-bold text-black pt-6">PAUL NARCH</p>
             <p className="pb-6">BARBER</p>
           </div>
         </div>
 
-        <div className="pb-6 hover:shadow-2xl sm:pb-0">
-          <img src={teamTwo} alt="" className="sm:h-96 sm:w-80" />
-          <div className="border-x-2 border-b-2 border-gray-300">
+        <div className="hover:shadow-2xl py-0 sm:pb-0">
+          <img src={teamTwo} alt="" className="sm:h-96 sm:w-80 h-96 w-80" />
+          <div className="">
             <p className="text-lg font-bold text-black pt-6">STEVEN JOSEPHIN</p>
             <p className="pb-6">BARBER</p>
           </div>
         </div>
 
-        <div className="pb-6 hover:shadow-2xl sm:pb-0">
-          <img src={teamThree} alt="" className="sm:h-96 sm:w-80" />
-          <div className="border-x-2 border-b-2 border-gray-300">
+        <div className="hover:shadow-2xl py-0 sm:pb-0">
+          <img src={teamThree} alt="" className="sm:h-96 sm:w-80 h-96 w-80" />
+          <div className="">
             <p className="text-lg font-bold text-black pt-6">ALEXANDER DAVID</p>
             <p className="pb-6">SHAVER</p>
           </div>

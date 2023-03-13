@@ -20,7 +20,7 @@ function Services() {
 
       <div className="flex flex-col justify-items-center gap-8 sm:flex sm:flex-row sm:gap-12">
         <div className="pb-6 hover:shadow-2xl">
-          <img src={serviceOne} alt="" className="sm:h-52 sm:w-96" />
+          <img src={serviceOne} alt="" className="sm:h-52 sm:w-96 h-64 w-80" />
           <h3 className="text-lg font-bold text-black pt-6 pb-3">
             CLASSIC HAIRCUT
           </h3>
@@ -32,7 +32,7 @@ function Services() {
           <button className={buttonStyle}>READ MORE</button>
         </div>
         <div className="pb-6 hover:shadow-2xl">
-          <img src={serviceTwo} alt="" className="sm:h-52 sm:w-96" />
+          <img src={serviceTwo} alt="" className="sm:h-52 sm:w-96 h-64 w-80" />
           <h3 className="text-lg font-bold text-black pt-6 pb-3">
             CLIPPER CUT
           </h3>
@@ -43,7 +43,11 @@ function Services() {
           <button className={buttonStyle}>READ MORE</button>
         </div>
         <div className="pb-6 hover:shadow-2xl">
-          <img src={serviceThree} alt="" className="sm:h-52 sm:w-96" />
+          <img
+            src={serviceThree}
+            alt=""
+            className="sm:h-52 sm:w-96 h-64 w-80"
+          />
           <h3 className="text-lg font-bold text-black pt-6 pb-3">
             RAZOR SHAVER
           </h3>
