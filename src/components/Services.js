@@ -18,7 +18,7 @@ function Services() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-items-center gap-8 sm:flex sm:flex-row sm:gap-12">
+      <div className="flex flex-col justify-items-center items-center gap-8 sm:flex sm:flex-row sm:gap-12">
         <div className="pb-6 hover:shadow-2xl">
           <img src={serviceOne} alt="" className="sm:h-52 sm:w-96 h-64 w-80" />
           <h3 className="text-lg font-bold text-black pt-6 pb-3">

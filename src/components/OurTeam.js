@@ -16,7 +16,7 @@ function OurTeam() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-8 sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
+      <div className="flex flex-col gap-8 justify-items-center items-center sm:flex sm:flex-row sm:justify-items-center sm:gap-12">
         <div className="hover:shadow-2xl py-0 sm:pb-0">
           <img src={teamOne} alt="" className="sm:h-96 sm:w-80 h-96 w-80" />
           <div className="">
